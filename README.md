@@ -1,2 +1,2 @@
-# lesson-6-new
-box in box
+# lesson-6
+box in the box

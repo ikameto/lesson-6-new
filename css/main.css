@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 1% 0;
+}
+
+.container,
+.cont-green,
+.cont-blue {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+.container {
+  padding: 0 2% 2% 2%;
+}
+
+.title-center {
+  text-align: center;
+  color: black;
+  margin: 0.5%;
+  font-size: 12px;
+}
+
+.cont-green {
+  background: green;
+  border: gray 3px solid;
+}
+
+.cont-blue {
+  background: blue;
+  padding: 0 2% 2% 2%;
+  border: skyblue 3px solid;
+}
+
+.title {
+  color: white;
+  padding: 1% 0 0.5% 0;
+  font-size: 12px;
+}
+
+.cont-yellow {
+  width: 100%;
+  background: yellow;
+  border: yellowgreen 3px solid;
+}
+
+/* ::-it vwert imitom, rom :hover gansxvavebit
+::before da ::after umateben psevdo elementebs tavis elements */
+.clear-fix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.wrapper {
+  background: white;
+  width: 20%;
+  float: left;
+  padding: 2%;
+  border: wheat 3px solid;
+  margin: 2.5%;
+}
+
+.box {
+  background: red;
+  padding: 15%;
+  text-align: center;
+  border: brown 3px solid;
+}
+
+.cont-yellow-down {
+  position: relative;
+  width: 100%;
+  height: 56%;
+  background: yellow;
+  border: yellowgreen 3px solid;
+  margin: 2.5% 0 2.5% 0;
+}
+
+.text {
+  font-size: 300%;
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
